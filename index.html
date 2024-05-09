@@ -1,1 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+        }
 
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position:  absolute;
+            bottom: 0;
+            width: 100vw;
+        }
+
+        .slideshow {
+            display: flex;
+            overflow: hidden;
+            width: 80%;
+            gap: 10px
+        }
+        .slideshow img {
+            width: 260px;
+            height: auto;
+            border-radius: 20px;
+
+        }
+
+        .slideshow img:hover {
+            transform: scale(1.1);
+            transition: transform 0.5s;
+        }
+
+            .orderBtn {
+                background-color: #333;
+                color: #fff;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                font-size: 16px;
+                cursor: pointer;
+                margin-left: 50vw;
+            }
+            .orderBtn:hover {
+                background-color: #555;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Page -->
+        <section id="home">
+            <h1>Welcome to our Restaurant</h1>
+            <div class="slideshow">
+                <img src="https://a.cdn-hotels.com/gdcs/production0/d1513/35c1c89e-408c-4449-9abe-f109068f40c0.jpg?impolicy=fcrop&w=800&h=533&q=medium" alt="Food 1">
+                <img src="https://www.cnet.com/a/img/resize/36e8e8fe542ad9af413eb03f3fbd1d0e2322f0b2/hub/2023/02/03/afedd3ee-671d-4189-bf39-4f312248fb27/gettyimages-1042132904.jpg?auto=webp&fit=crop&height=1200&width=1200" alt="Food 2">
+                <img src="https://i.redd.it/yyr6vtruhzbb1.jpg" alt="Food 3">
+                <img src="https://hips.hearstapps.com/hmg-prod/images/ice-tea-royalty-free-image-1621872849.jpg?resize=980:*" alt="Food 3">
+
+            </div>
+        </section>
+        </section>
+
+    </main>
+
+    <button class="orderBtn"> 
+        Order Now
+    </button>
+    <footer>
+        <p>&copy; 2022 Restaurant. All rights reserved.</p>
+    </footer>
+</body>
+</html>
